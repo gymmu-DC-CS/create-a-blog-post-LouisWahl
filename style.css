@@ -13,3 +13,30 @@ body {
 .back{
   background-color: beige;
 }
+
+body {
+  background-image: url("Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+div {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 20px;
+  border-radius: 15%;
+  background-color: aqua;
+}
+
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
