@@ -4,9 +4,13 @@
   box-sizing: content-box;
 }
 
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  background-color: lightgray;
   font-family: sans-serif;
 }
 
@@ -26,29 +30,47 @@ div {
   border: 3px solid rgb(0, 0, 0);
   margin: 30px;
   border-radius: 40px;
-  background-image: linear-gradient(90deg, rgb(187, 200, 226) 50%, rgb(255, 255, 255) 100%);
+  background-image: linear-gradient(45deg, rgb(187, 200, 226) 50%, rgb(255, 255, 255) 100%);
   display: flow-root;
   transition: all 400ms ease-in-out
 }
 
 div:hover {
-box-shadow: 10px 12px 10px; color: rgb(22, 22, 22);
-transform: scale(1.005);
+box-shadow: 10px 11px 20px; color: rgb(37, 36, 36);
+transform: scale(1.01);
 }
 
 .header {
-  background-color: #F1F1F1;
+  background-color: #d6d6d67e;
   text-align: center;
-  padding: 20px;
+  height: 150px;
+  box-shadow: inset 0px -5px 8px;
 }
 
 .column {
   float: left;
-  box-shadow: 2px 2px 8px; color: rgb(22, 22, 22);
 }
 
 #img1 {
   float: right;
   margin: 30px;
+  max-height: 300px;
+  border: 1px solid gray;
 }
 
+#split1 {
+  float: left;
+  width: 44%;
+}
+
+#split2 {
+  float: right;
+  width: 44%;
+}
+
+footer {
+  background-color: #d6d6d67e;
+  padding: 20px;
+  text-align: left;
+  box-shadow: inset 0px 5px 8px;
+}
