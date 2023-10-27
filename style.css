@@ -9,14 +9,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  margin: 0;
-  font-family: sans-serif;
-}
-
-.back{
-  background-color: beige;
-}
+/* Background */  
 
 body {
   background-image: url("images/Background.jpg");
@@ -24,6 +17,8 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+
+/*I have the color gradient from w3schools*/
 
 div {
   padding: 10px;
@@ -34,6 +29,8 @@ div {
   display: flow-root;
   transition: all 400ms ease-in-out
 }
+
+/*Nice animation*/
 
 div:hover {
 box-shadow: 10px 11px 20px; color: rgb(37, 36, 36);
@@ -52,12 +49,17 @@ transform: scale(1.01);
   float: left;
 }
 
+/*Through this id all the pictures in the texts have little gray borders*/
+
 #img1 {
   float: right;
   margin: 30px;
   max-height: 300px;
   border: 1px solid gray;
 }
+
+
+/*To align the little texts next to each other*/
 
 #split1 {
   float: left;
@@ -69,12 +71,17 @@ transform: scale(1.01);
   width: 44%;
 }
 
+
+
+
 footer {
   background-color: #d6d6d67e;
   padding: 20px;
   text-align: left;
   box-shadow: inset 0px 5px 8px;
 }
+
+/*I have the gallery from w3schools but I changed it a little*/
 
 .gallery {
   display: inline-block;
@@ -92,6 +99,7 @@ footer {
 .gallery:hover {
 border-color: rgb(85, 83, 83);
 }
+
 
 .gallery img {
   width: 20%;
